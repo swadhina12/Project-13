@@ -6,7 +6,7 @@
 ![This is an image](./project.jpg)
 
 ### As a result of this project, I learn the following:
-[LIVE-LINK](https://projectbusiness.netlify.app/)
+[LIVE-LINK](https://projectsaas.netlify.app/)
 
 - [x] Learned to use flex and grid for layout
 - [x] adding svg images in this project
