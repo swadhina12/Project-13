@@ -52,6 +52,7 @@ body {
     border-radius: 4px;
 }
 
+
 .first {
     display: flex;
     margin-top: 50px;
@@ -87,7 +88,54 @@ body {
 .first-right img {
     width: 650px;
 }
-
+@media only screen and (max-width: 1110px) {
+    .navbar {
+        overflow-x: auto;
+        height: 14vh;
+        gap: 20px;
+       
+    }
+    .navbar .list-item:last-child button {
+        background-color: #5ba0e0;
+        padding: 10px 0px;
+        min-width: 100px;
+        margin-left: 40px;
+        margin-right: 20px;
+    }
+    .first .first-left h1 {
+        font-size: 2.4rem;
+        line-height: 50px;
+        margin-bottom: 20px;
+    }
+    .first .first-left button {
+        padding: 10px 20px;
+        font-size: 14px;
+        margin-top: 20px;
+    }
+    .first .first-right img {
+        width: 450px;
+    }
+} 
+@media only screen and (max-width: 815px) {
+    .first .first-right {
+        opacity: .2;
+        position: absolute;
+        z-index: -1;
+        width: 100%;
+    }
+    .first {
+        justify-content: center;
+        margin-top: 120px;
+    }
+    .first .first-left  {
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .first .first-left  {
+        padding: 0 20px;
+    }
+}
 .second {
     display: flex;
     align-items: center;
@@ -113,6 +161,24 @@ body {
 .list-item h6 {
     font-size: 1.1rem;
     margin-bottom: 10px;
+}
+@media only screen and (max-width: 916px) {
+    .second {
+        gap: 20px;
+        justify-content: center;
+    }
+    .second .second-left img {
+        width: 400px;
+    }
+}
+@media only screen and (max-width: 700px) {
+    .second {
+        flex-direction: column;
+        margin-top: 300px;
+    }
+    .second .second-left img {
+        width: 400px;
+    }
 }
 
 
@@ -185,4 +251,9 @@ body {
 .customer .customer-cards .card .info p {
     font-size: 13px;
     margin-top: 4px;
+}
+@media only screen and (max-width: 700px) {
+    .customer .customer-cards {
+        flex-wrap: wrap;
+    }
 }
